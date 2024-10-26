@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gizmo_salary_calculator"
+version = "0.1.0"
+description = ""
+authors = ["Kazantsev Artem <me@lokach.ru>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytelegrambotapi = "^4.22.1"
+xlsxwriter = "^3.2.0"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
